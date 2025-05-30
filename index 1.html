@@ -1,0 +1,1256 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crayon'd Style Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .highlight-usability { background-color: #e0e6f9; }
+    .highlight-speed     { background-color: #fff2d6; }
+    .highlight-bugfree   { background-color: #fbe3eb; }
+    .highlight-secure    { background-color: #d4f5ef; }
+    .highlight-scalable  { background-color: #e8dff3; }
+    .btn-purple {
+      background-color: #6c5ce7;
+      color: white;
+    }
+  </style> 
+</head>
+<body>
+
+
+<style>
+  #mainNavbar {
+    transition: top 0.3s ease-in-out;
+    height:70px;
+    margin-right:100%;
+    width: 100%;
+    color:white;
+  }
+
+  .navbar-hidden {
+    top: -100px; 
+  }
+
+  .navbar-visible {
+    top: 0; 
+
+  }
+  .btn-sm.btn-outline-primary {
+  padding: 0.4rem 0.85rem;
+  font-size: 0.95rem;
+  box-shadow: 0 3px 6px rgba(13, 110, 253, 0.15);
+  padding-left:10px;
+  margin-left:50px;
+  padding-right:-100px;
+}
+
+.btn-sm.btn-outline-primary:hover {
+  box-shadow: 0 4px 10px rgba(13, 110, 253, 0.25);
+}
+
+  
+</style>
+
+<nav id="mainNavbar" class="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="https://www.crayond.com/">
+      <img src="D:\bootstrap\IMAGES\Screenshot 2025-05-26 124057.png" alt="Logo" style="height: 70%; margin-left:-50px;  padding-bottom:10px;margin-top:10px; ">
+    </a>
+    <div class="collapse navbar-collapse justify-content-end">
+      <ul class="navbar-nav" style="padding-bottom:10px;margin-top:10px;">
+        <li class="nav-item mx-1 p-3"><a class="nav-link" href="https://www.crayond.com/fixed-bid" >Fixed Bid</a></li>
+        <li class="nav-item mx-1 p-3"><a class="nav-link" href="https://www.crayond.com/who-we-are">Who We Are</a></li>
+        <li class="nav-item mx-1 p-3"><a class="nav-link" href="https://www.crayond.com/">Resources</a></li>
+        <li class="nav-item mx-1 p-3"><a class="nav-link" href="https://www.crayond.com/contact">Contact</a></li>
+        <li class="nav-item mx-1 p-3"style= " margin-right:-100px; padding-right:100%">
+          <a class="btn btn-outline-primary btn-sm" href="https://app.lemcal.com/@makesh/discovery-call"  style="border-shadow:1px">SCHEDULE A CALL</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  let lastScrollTop = 0;
+  const navbar = document.getElementById("mainNavbar");
+
+  window.addEventListener("scroll", function () {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    
+    if (scrollTop < lastScrollTop) {
+    
+      navbar.classList.remove("navbar-hidden");
+      navbar.classList.add("navbar-visible");
+    } else {
+   
+      navbar.classList.remove("navbar-visible");
+      navbar.classList.add("navbar-hidden");
+    }
+    
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; 
+      }, false);
+</script>
+
+
+
+
+
+<!-- main text -->
+ 
+  <section class="text-center py-5">
+    <div class="container" style="margin-top: 60px; font-family: sans-serif;">
+        
+      <h1 class="fw-bold" style="text-align: center;font-size: 35px;font-weight:800"><b>We help startups and enterprises build products</h1>
+      <h1 class="fw-bold" style="font-weight:100"> that are 
+        <span class="highlight-usability" style="font-weight:800">usable</span>, 
+        <span class="highlight-speed"  style="font-weight:800">blazing fast</span>, 
+        <span class="highlight-bugfree" style="font-weight:800">bug-free</span>, 
+
+        <br>
+        <span class="highlight-secure"  style="font-weight:800">secure</span> and 
+        <span class="highlight-scalable" style="font-weight:800">scalable</span>
+        </h1>
+        </b>
+      </h1>
+      <p class="mt-4 fs-5 text-muted" style="font-weight: 500;">
+        Product engineering, done right. 100% risk-free, expert results guaranteed.
+      </p>
+        </b>
+      <div class="mt-4">
+        <a href="#" class="btn btn-purple btn-lg me-3" style="height:55px; width:20%; font-weight:500px;font-size: medium; padding-top:15px;font-weight: 700">VIEW PLANS</a>
+        <a href="#" class="btn btn-outline-primary btn-lg" style="height:55px; width:20%; font-weight:500px; font-size: medium;padding-top:15px; font-weight: 700;">SHEDULE A CALL</a>
+      </div>
+    </div>
+  </section>
+   
+
+   
+</body>
+     <img src="D:\bootstrap\IMAGES\crayonimage.png" style="height: 300px;width:100%; ; justify-content: center;">
+ 
+ 
+ 
+     <title style="height: 55px;  padding-left: 50px;">Brands Who Trusted Us</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+    .logo-section {
+      padding: 40px 20px;
+      background-color: #fdfdfd;
+    }
+    .logo-section h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+    }
+    .logos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+    .logo-item img {
+      max-height: 60px;
+      max-width: 150px;
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+
+
+  <section class="logo-section">
+    <h2 class="text-center"><b>Brands Who Trusted Us</b></h2>
+    <div class="logos">
+      <div class="logo-item"><img src="D:\bootstrap\IMAGE\3_benz.png" alt="Mercedes-Benz"></div>
+      <div class="logo-item"><img src="D:\bootstrap\IMAGE\Chennai_Super_Kings_Logo.svg.png" alt="Chennai Super Kings"></div>
+      <div class="logo-item"><img src="D:\bootstrap\IMAGE\6_Choosemybiclcye.png" alt="ChooseMyBicycle"></div>
+      <div class="logo-item"><img src="D:\bootstrap\IMAGE\india_cements_logo_final.png" alt="India Cements"></div>
+      <div class="logo-item"><img src="D:\bootstrap\IMAGE\9_pickyourtrail.png" alt="Pickyourtrail"></div>
+      <div class="logo-item"><img src="D:\bootstrap\IMAGE\caratlane_new.png" alt="Caratlane"></div>
+      <div class="logo-item"><img src="D:\bootstrap\IMAGE\14_ziba.png" alt="ZIBA"></div>
+      <div class="logo-item"><img src="D:\bootstrap\IMAGE\17_NAC.png" alt="NAC"></div>
+      
+    </div>
+  </section>
+
+</body>
+
+       <img src="D:\bootstrap\IMAGE\Screenshot 2025-05-26 155359.png"style="padding: left 50px;">
+
+
+<style>
+    .reveal {
+      opacity: 0;
+      transform: translateY(50px);
+      transition: all 0.6s ease;
+    }
+
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .step-card {
+      border-radius: 15px;
+      padding: 30px;
+      height: 100%;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    .step-number {
+      font-size: 2rem;
+      font-weight: bold;
+      opacity: 0.2;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container my-5">
+   <h2 class="section-title mb-2">Our offerings</h2>
+  <p class="section-subtitle mb-4"><b>From idea / problem solving to launch, we get you covered with offerings</b></p>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="step-card bg-green-custom reveal">
+        <div class="step-number">1</div>
+        <h5 class="mt-3">UI/UX</h5>
+        <p>Craft your idea into a delightful product experience to solve your user problems with our expert product and UI/UX design team.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="step-card bg-warning bg-opacity-25 reveal">
+        <div class="step-number">2</div>
+        <h5 class="mt-3">Full-stack development</h5>
+        <p>Launch your idea into a world-class product or modernize legacy systems through front-end, back-end engineering and DevOps.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="step-card bg-primary bg-opacity-10 reveal">
+        <div class="step-number">3</div>
+        <h5 class="mt-3">Front-end development</h5>
+        <p>We help you build beautiful + usable interfaces on web/mobile and integrate them with your APIs through front-end engineering.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function revealOnScroll() {
+    const reveals = document.querySelectorAll('.reveal');
+    for (let el of reveals) {
+      const windowHeight = window.innerHeight;
+      const elementTop = el.getBoundingClientRect().top;
+      const revealPoint = 100;
+
+      if (elementTop < windowHeight - revealPoint) {
+        el.classList.add('active');
+      } else {
+        el.classList.remove('active');
+      }
+    }
+  }
+
+  window.addEventListener('scroll', revealOnScroll);
+  window.addEventListener('load', revealOnScroll);
+</script>
+
+ <style>
+    .reveal {
+      opacity: 0;
+      transform: translateY(50px);
+      transition: all 0.6s ease;
+    }
+
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .benefit-card {
+      border-radius: 15px;
+      padding: 30px;
+      height: 100%;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    .benefit-icon {
+      font-size: 2rem;
+    }
+
+    .section-title {
+      font-weight: bold;
+    }
+
+    .section-subtitle {
+      font-size: 1.1rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container py-5 text-center";">
+  <h2 class="section-title mb-2">Benefits you’ll love</h2>
+  <p class="section-subtitle mb-4"><b>And moreover, comfortably repeatable.</b></p>
+
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="benefit-card bg-light reveal" style="border: 2px solid black; height: 50 px;" class=" shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+        <div class="benefit-icon mb-3">😊</div>
+        <h5 class="fw-bold">Affordable</h5>
+        <p>High-quality product engineering services that fits your budget, without compromising on quality.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="benefit-card bg-light reveal"style="border: 2px solid black; height: 50 px;">
+        <div class="benefit-icon mb-3">😐</div>
+        <h5 class="fw-bold">Risk-free</h5>
+        <p>Zero risks in terms of talent, scalability, and quality. Pay only for what you need, without any commitments.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="benefit-card bg-light reveal"style="border: 2px solid black; height: 50 px; ">
+        <div class="benefit-icon mb-3">😎</div>
+        <h5 class="fw-bold">Flexible</h5>
+        <p>Product engineering services that can be scaled up or down as per your needs, do it the right way.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function revealOnScroll() {
+    const reveals = document.querySelectorAll('.reveal');
+    for (let el of reveals) {
+      const windowHeight = window.innerHeight;
+      const elementTop = el.getBoundingClientRect().top;
+      const revealPoint = 100;
+
+      if (elementTop < windowHeight - revealPoint) {
+        el.classList.add('active');
+      } else {
+        el.classList.remove('active');
+      }
+    }
+  }
+
+  window.addEventListener('scroll', revealOnScroll);
+  window.addEventListener('load', revealOnScroll);
+</script>
+
+
+
+
+
+
+
+
+
+
+<style>
+  .scroll-container {
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #f9f9f9;
+    padding: 10px 0;
+  }
+
+  .scroll-content {
+    display: inline-block;
+    animation: scroll-left 15s linear infinite;
+  }
+
+  .scroll-content span {
+    display: inline-block;
+    background-color: #f1f1f5;
+    color: #333;
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-weight: 500;
+  }
+
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container-fluid scroll-container">
+<div class="scroll-content">
+  <span>Happy customers</span>
+  <span>Full ownership of actions</span>
+  <span>Bug-free delivery</span>
+  <span>Best of standards</span>
+  <span>Automated assessments</span>
+  <span>Minimal tech debt</span>
+  <span>Frameworks to SaaSify</span>
+  <span>Completely agile</span>
+  <span>Secure and scalable</span>
+  <span>Idea to product</span>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  body {
+    background: linear-gradient(to bottom, #F4FCFF 0%, #E5F5FA 100%);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  .toggle-tabs {
+    background-color: #1c1b3a;
+    padding-top:20px;
+    text-align: center;
+    width: 100%;
+    color: white;
+  }
+  .toggle-btns .btn {
+    background-color: white;
+    border-color: #6c5ce7;
+    border-width:3px;;
+    border-radius: 10px 10px 0 0;
+    padding: 0.5rem 2rem;
+    margin: 0 0.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  .toggle-btns .btn.active {
+    background: linear-gradient(to right, rgb(136, 0, 255),#003ffb, #02d2f7);
+    color: white;
+  }
+  .slider-section {
+    text-align: center;
+    padding: 2rem;
+  }
+  .pricing-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-color: #6c5ce7;
+    border-width :4px;;
+    padding: 2rem;
+    margin: 1rem 0;
+  }
+  .pricing-highlight {
+    background-color: #ffe680;
+    border-radius: 25px;
+    padding: 0.3rem 1rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  .unlock-btn {
+    background-color: #6e61f6;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 0.5rem 1.5rem;
+  }
+  .plan-terms {
+    background-color: #fffbe6;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #333;
+    
+  }
+  .slider {
+    width 10%;
+  }
+</style>
+</head>
+<body>
+
+<!--planner box -->
+<div class="toggle-tabs">
+  <h2>Value based plans</h2>
+  <p>Transparent and outcome driven so guess on what is going to cost</p>
+  <div class="toggle-btns d-flex justify-content-center">
+    <button class="btn active" id="ideaBtn">Idea to Design</button>
+    <button class="btn" id="buildBtn" style="height: 90px;">Design to Build <h1 class="subtitle"></h1></button>
+  </div>
+</div>
+
+<div class="slider-section container">
+  <p style="font-size: medium soild black; font-weight: 500;">Slide through the hours to select the monthly plan that best suits your development needs</p>
+  <div style=" border-style: solid;border-width: 5px;border-radius :30px;width: 100px;height: 40px;background-color: #1c1b3a; color: #F4FCFF;font-weight: 500;font-family:Arial;padding-bottom: 0% auto;">
+    <i class="fas fa-stopwatch">Hours</i>
+  </div>
+  <input type="range" class="form-range slider" min="160" max="1280" step="80" id="hourSlider">
+  <div class="d-flex justify-content-between mt-2">
+    <span>160</span>
+    <span>240</span>
+    <span>320</span>
+    <span>400</span>
+    <span>640</span>
+    <span>960</span>
+    <span>1280</span>
+  </div>
+
+  <div class="row mt-4">
+    <div class="col-md-4">
+      <div class="pricing-card text-center">
+        <div class="pricing-highlight" id="planName">Lean</div>
+        <p id="planDescription">Ideal for designing MVPs, POCs, modules and features</p>
+        <div class="my-2">
+          <strong id="planHours">240 design hours / month</strong><br>
+          <small id="teamInfo">1.5 Designer(s) + 0.3 ProdOps</small>
+        </div>
+        <button class="unlock-btn">UNLOCK PRICING</button>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="pricing-card">
+        <h6>Plan includes:</h6>
+        <ul id="planFeatures">
+          <li>Dedicated account manager</li>
+          <li>Design research</li>
+          <li>Product design artifacts</li>
+          <li>Wireframing</li>
+          <li>UI/UX designing and prototyping</li>
+          <li>2 versions of each design item</li>
+          <li>Project management</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="pricing-card">
+        <div class="plan-terms">
+          <p>⭐ Your IP is only yours.<br>
+            ⭐ Accelerate your product vision with our pre-built frameworks.<br>
+            ⭐ Discounts: 5% quarterly, 10% half-yearly, 20% yearly.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const ideaBtn = document.getElementById('ideaBtn');
+  const buildBtn = document.getElementById('buildBtn');
+  const planName = document.getElementById('planName');
+  const planDescription = document.getElementById('planDescription');
+  const planHours = document.getElementById('planHours');
+  const teamInfo = document.getElementById('teamInfo');
+  const planFeatures = document.getElementById('planFeatures');
+
+  ideaBtn.addEventListener('click', () => {
+    ideaBtn.classList.add('active');
+    buildBtn.classList.remove('active');
+    updatePlan('design');
+  });
+
+  buildBtn.addEventListener('click', () => {
+    buildBtn.classList.add('active');
+    ideaBtn.classList.remove('active');
+    updatePlan('build');
+  });
+
+  function updatePlan(mode) {
+    if (mode === 'design') {
+      planName.innerText = 'Lean';
+      planDescription.innerText = 'Ideal for designing MVPs, POCs, modules and features';
+      planHours.innerText = '240 design hours / month';
+      teamInfo.innerText = '1.5 Designer(s) + 0.3 ProdOps';
+      planFeatures.innerHTML = `
+        <li>Dedicated account manager</li>
+        <li>Design research</li>
+        <li>Product design artifacts</li>
+        <li>Wireframing</li>
+        <li>UI/UX designing and prototyping</li>
+        <li>2 versions of each design item</li>
+        <li>Project management</li>
+      `;
+    } else {
+      planName.innerText = 'Scale+';
+      planDescription.innerText = 'Ideal for organizations looking to scale up at faster pace';
+      planHours.innerText = '1280 dev hours / month';
+      teamInfo.innerText = '8 Engineer(s) + 0.3 ProdOps';
+      planFeatures.innerHTML = `
+        <li>Dedicated account manager</li>
+        <li>Full-stack development</li>
+        <li>Technical analysis</li>
+        <li>Product development artifacts</li>
+        <li>Project management</li>
+        <li>Quality assurance</li>
+        <li>Clean code and best practices</li>
+        <li>VAPT report</li>
+        <li>Performance report</li>
+        <li>DevOps support</li>
+      `;
+    }
+  }
+</script>
+
+<!--bulleted pointssssss-->
+
+  <style>
+    body {
+      background-color: #e6f7fa;
+    }
+
+    .addons-title {
+      font-size: 1.8rem;
+      font-weight: 600;
+      color:#1c1b3a;
+    }
+
+    .highlight {
+      color: #7a5cff;
+      position: relative;
+    }
+
+    .highlight::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 4px;
+      background-color: #b3f0ff;
+      z-index: -1;
+    }
+
+    .recommended-badge {
+      background-color: #ff6b5e;
+      color: white;
+      font-size: 0.75rem;
+      padding: 0.25rem 0.5rem;
+      border-radius: 10px;
+      margin-left: 0.5rem;
+    }
+
+    ul.custom-list {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+
+    .addon-item {
+      margin-bottom: 0.75rem;
+    }
+    
+    .custom-list {
+  list-style-position: inside; 
+  padding-left: 0;             
+  margin-left:20px;;           
+}
+
+.custom-list li {
+  text-indent: -1rem;       
+  padding-left: 1rem;          
+
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container py-5 bw-bold">
+    <h2 class="text-center addons-title mb-4">
+      Add toppings to enhance your product lifecycle with our invaluable
+      <span class="highlight">add-ons</span>
+    </h2>
+
+    <div class="row text-center">
+      <div class="col-md-4">
+        <ul class="custom-list text-start" style="color: #1c1b3a; font-size: large; font-weight:500; padding-left: 120px;">
+          <li class="addon-item">Roadmap grooming (Product)</li>
+          <li class="addon-item">System design (Engineering)</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="custom-list text-start">
+          <li class="addon-item"style="color: #1c1b3a; font-size: large; font-weight:500; padding-right: 80px;">Product management (Product)</li>
+          <li class="addon-item mb-100 custom-bullets"style="color: #1c1b3a; font-size: large; font-weight:500;padding:0%auto;">Technical architecture and solution (Engineering)</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="custom-list text-start custom-list"style="color: #1c1b3a; font-size: large ; font-weight:500; padding-right: 0px;">
+          <li class="addon-item"style="padding-right:120px;;">
+            Product research (Product)
+            <span class="recommended-badge">RECOMMENDED</span>
+          </li>
+          <li class="addon-item">BDD test automation (QA)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--box for investors -->
+
+  <style>
+    .fixed-bid-section {
+      background-color: #1c1b3a;
+      color: white;
+      border-radius: 12px;
+      width: 90%;;
+      height: 70%;
+      margin-left: 100px;
+      padding: 3rem 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .fixed-bid-section h2 {
+      font-weight: 700;
+      font-size: 2rem;
+    }
+
+    .fixed-bid-section p {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .yellow-line {
+      width: 30px;
+      height: 4px;
+      background-color: #ffeb3b;
+      border-radius: 2px;
+      margin: 1rem 0 0.5rem 0;
+    }
+
+    .btn-bid-model {
+      background-color: #2f2e4d;
+      color: white;
+      padding: 0.6rem 1.5rem;
+      border-radius: 30px;
+      margin-right: 1rem;
+      font-weight: 600;
+      border: none;
+    }
+
+    .view-details {
+      position: absolute;
+      bottom: 1.5rem;
+      right: 2rem;
+      color: #9c8cff;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+    }
+
+    .view-details i {
+      margin-left: 0.5rem;
+      border: 2px solid #9c8cff;
+      border-radius: 50%;
+      padding: 0.2rem 0.4rem;
+      font-size: 1rem;
+    }
+
+    .curve-overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 50%;
+      height: 100%;
+      background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><circle cx="150" cy="150" r="100" fill="none" stroke="%239c8cff" stroke-width="4"/></svg>') no-repeat;
+      background-position: top right;
+      background-size: contain;
+      opacity: 0.2;
+      pointer-events: none;
+    }
+
+
+     .view-details-container {
+      position: relative;
+      width: fit-content;
+      margin: 3rem;
+    }
+
+    .view-details-cta {
+      background-color: white;
+      color: #7d73db;
+      font-weight: 600;
+      padding: 0.75rem 1.5rem;
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      clip-path: polygon(15px 0%, 100% 0%, 100% 100%, 0% 100%);
+      box-shadow: -10px 10px 0px rgba(0, 0, 0, 0.2);
+      transition: 0.3s ease-in-out;
+    }
+
+    .view-details-cta:hover {
+      color: #5a51b8;
+      box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.25);
+    }
+
+    .view-details-cta i {
+      margin-left: 0.5rem;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container my-5">
+    <div class="fixed-bid-section" >
+      <h2 style="padding-right :500px; font-size:40px; line">Looking for a fixed-bid model to work with?</h2>
+      <p>We have executed several large fixed-bid projects, we’d love to talk.</p>
+      <div class="yellow-line"></div>
+      <p class="mb-3">Our fixed-bid engagement models</p>
+      <div class="d-flex flex-wrap gap-3 mb-4">
+        <button class="btn-bid-model">Cash only</button>
+        <button class="btn-bid-model">Cash + equity</button>
+      </div>
+     <div class="view-details-container">
+    <a href="#" class="view-details-cta">
+      VIEW DETAILS <i class="bi bi-arrow-right-circle"></i>
+    </a>
+  </div>
+    </div>
+  </div>
+
+
+  <!-- changeeeblee conttent when we click the button-->
+
+   <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px 20px;
+      margin: 0;
+      text-align: center;
+      background-color: white;
+
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .subheading {
+      font-size: 1.2rem;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .tab-buttons {
+      display: inline-flex;
+      border: 1px solid #7B61FF;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 30px;
+    }
+
+    .tab-buttons button {
+      padding: 12px 30px;
+      background-color: white;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      color: #333;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .tab-buttons button.active {
+      background-color: #7B61FF;
+      color: white;
+    }
+
+    .steps-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .step-box {
+      border: 1px dashed #ccc;
+      border-radius: 12px;
+      padding: 20px 25px;
+      text-align: left;
+      background-color: #fafafa;
+      transition: box-shadow 0.2s;
+    }
+
+    .step-box:hover {
+      box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    }
+
+    .step-box h3 {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #999;
+      margin-bottom: 10px;
+    }
+
+    .step-box p {
+      font-size: 1rem;
+      color: #333;
+      margin: 0;
+    }
+
+    @media (max-width: 600px) {
+      .tab-buttons {
+        flex-direction: column;
+      }
+      .tab-buttons button {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Know our process and how we deliver</h2>
+  <p class="subheading">From start to finish, we keep you informed with stage-wise updates.</p>
+
+  <div class="tab-buttons">
+    <button class="active" onclick="showSteps('idea', this)">Idea to design</button>
+    <button onclick="showSteps('build', this)">Design to build</button>
+  </div>
+
+  <div class="steps-container" id="steps">
+    <!-- Default content loaded here -->
+  </div>
+
+  <script>
+    const steps = {
+      idea: [
+        "Get to know the business problem, product & scope",
+        "We convert the problem statements into user stories",
+        "We produce wireframes for those stories",
+        "We collaborate with you to be on the same page",
+        "We create the estimates for full-fledged design",
+        "We seek your approval on the estimates and go ahead",
+        "Our experts turn stories into design prototype",
+        "We iterate with you to freeze the design"
+      ],
+      build: [
+        "We freeze the design & prep for hand-off",
+        "Set up CI/CD pipeline and tech stack",
+        "Develop front-end and back-end in sprints",
+        "QA testing and bug fixing at every sprint",
+        "Collaborate with you for feedback",
+        "Prepare for launch & post-launch support",
+        "Handover codebase and documentation",
+        "Support with scaling and maintenance"
+      ]
+    };
+
+    function showSteps(type, clickedButton) {
+      const container = document.getElementById("steps");
+      const buttons = document.querySelectorAll(".tab-buttons button");
+
+      buttons.forEach(btn => btn.classList.remove("active"));
+      clickedButton.classList.add("active");
+
+      container.innerHTML = steps[type]
+        .map((text, index) => `
+          <div class="step-box">
+            <h3>${String(index + 1).padStart(2, '0')}</h3>
+            <p>${text}</p>
+          </div>
+        `)
+        .join('');
+    }
+
+    // Load "idea to design" by default
+    window.onload = function () {
+      const defaultButton = document.querySelector(".tab-buttons button.active");
+      showSteps("idea", defaultButton);
+    };
+  </script>
+
+
+<!--table wiiiitthhhhh coooontnent-->
+
+ <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f7fb; /* Sky blue */
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .subtext {
+      text-align: center;
+      color: #555;
+      font-size: 1rem;
+      margin-bottom: 30px;
+    }
+
+    .card-box {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 800px;
+      border-color:skyblue
+    }
+
+    thead th {
+      background-color: #f0f5f7;
+      padding: 16px;
+      font-size: 1rem;
+      border-right: 1px solid #ddd;
+      font-weight: bold;
+    }
+
+    thead th:last-child {
+      background-color: #76c161;
+      color: white;
+      border-right: none;
+    }
+
+    td {
+      padding: 16px;
+      border-top: 1px solid #eee;
+      text-align: center;
+      font-size: 0.95rem;
+      border-color:skyblue;
+    }
+
+    tr:nth-child(even) td {
+      background-color: #f9f9f9;
+      border-color:skyblue
+    }
+
+    .cta-box {
+      background-color: #17162e;
+      color: white;
+      padding: 24px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .cta-text {
+      font-size: 1rem;
+      flex: 1;
+      min-width: 200px;
+    }
+
+    .cta-button {
+      background-color: #7B61FF;
+      color: white;
+      padding: 10px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      white-space: nowrap;
+      transition: background-color 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #5a4ac0;
+    }
+
+    @media screen and (max-width: 768px) {
+      .cta-box {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Here are the facts</h2>
+    <p class="subtext">When you want reliability and outcomes, choose us. You will love us just like our customers.</p>
+
+    <div class="card-box">
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Standard development agencies</th>
+            <th>In-house</th>
+            <th>Crayon’d ✨</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Value for the money</td>
+            <td>💰💰💰 Risky</td>
+            <td>💰 Risky</td>
+            <td>💰 Risk-free + value driven</td>
+          </tr>
+          <tr>
+            <td>Knowledge capital (Ideation + design + dev + scrum)</td>
+            <td>🙇‍♂️ Minimal</td>
+            <td>🙇‍♂️ Minimal</td>
+            <td>🟢 Very high</td>
+          </tr>
+          <tr>
+            <td>Truly agile</td>
+            <td>🙇‍♂️ Partially</td>
+            <td>🙇‍♂️ Partially</td>
+            <td>✅ Assured</td>
+          </tr>
+          <tr>
+            <td>Experience in shipping successful products</td>
+            <td>🙇‍♂️ Maybe</td>
+            <td>🙇‍♂️ Maybe</td>
+            <td>🚀 Solid case studies</td>
+          </tr>
+          <tr>
+            <td>Crafting delightful product experiences</td>
+            <td>⚠️ Mediocre results</td>
+            <td>🟢 Good results</td>
+            <td>💛 Crafted with love</td>
+          </tr>
+          <tr>
+            <td>Accelerate product vision with pre-built frameworks</td>
+            <td>⛔ No shortcuts</td>
+            <td>⛔ No shortcuts</td>
+            <td>🔥 Powerful frameworks</td>
+          </tr>
+          <tr>
+            <td>Smooth delivery-ops throughout product life cycle</td>
+            <td>🔀 A mixed bag</td>
+            <td>🔀 A mixed bag</td>
+            <td>✅ Matured delivery-ops</td>
+          </tr>
+          <tr>
+            <td>Cost-effective scaled product engineering</td>
+            <td>💸💸 Expensive and inefficient</td>
+            <td>💸 Expensive and inefficient</td>
+            <td>✅ Scalable and efficient</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- CTA inside the same box -->
+      <div class="cta-box">
+        <div class="cta-text">We’re just a step away to collaborate & ship great product experience for you.</div>
+        <a href="#get-started" class="cta-button">GET STARTED</a>
+      </div>
+    </div>
+  </div>
+<style>
+
+  .journey-section {
+  background-color: #1e1d35;
+  color: #ffffff;
+  padding: 80px 0;
+  position: relative;
+  overflow: hidden;
+} 
+
+.journey-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.journey-subtitle {
+  font-size: 1.2rem;
+  color: #cfd2e4;
+  margin-top: 10px;
+}
+
+.stat-number {
+  font-size: 2rem;
+  color: #ffe600; /* yellow */
+  font-weight: bold;
+}
+
+.stat-label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #cfd2e4;
+  text-transform: uppercase;
+}
+
+.stats-row {
+  margin-top: 40px;
+}
+
+.journey-section::before,
+.journey-section::after {
+  content: '';
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: #5f57d7;
+  top: -50px;
+  z-index: 1;
+}
+.journey-section::before {
+  left: -150px;
+}
+.journey-section::after {
+  right: -150px;
+}
+</style>
+
+<section class="journey-section">
+  <div class="container text-center">
+    <h2 class="journey-title">Our journey so far</h2>
+    <p class="journey-subtitle">We have helped startups and enterprises build successful products.</p>
+
+    <div class="row mt-4 justify-content-center stats-row">
+      <div class="col-6 col-md-3 mb-4">
+        <h3 class="stat-number">120+</h3>
+        <p class="stat-label">PRODUCTS</p>
+      </div>
+      <div class="col-6 col-md-3 mb-4">
+        <h3 class="stat-number">30+</h3>
+        <p class="stat-label">MVPs</p>
+      </div>
+      <div class="col-6 col-md-3 mb-4">
+        <h3 class="stat-number">10000+</h3>
+        <p class="stat-label">FEATURE</p>
+      </div>
+      <div class="col-6 col-md-3 mb-4">
+        <h3 class="stat-number">12+</h3>
+        <p class="stat-label">DOMAINS</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</body>
+</html>
+
+       
+</html>
+
